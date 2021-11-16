@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(assets/netflixBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.signIn-box{
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    text-align: center;
+    height: 540px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+
+}
+.signIn-box h1{
+    color: white;
+    font-size: 40px;
+}
+.signIn-box input{
+    width: 270px;
+    background-color: rgb(53, 52, 52);
+    border: none;
+    padding: 12px 34px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: none;
+    width: 200px;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: red;
+    position:cursor pointer;
+    border-radius: 5px;
+}
+
+
