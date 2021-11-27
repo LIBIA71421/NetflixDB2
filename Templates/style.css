@@ -70,5 +70,42 @@
     font-weight: 600;
     
 }
+.sub-header{
+    background-color: black;
+}
+.userBoxes{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.userBoxes h1{
+    text-align: center;
+    color: white;
+   
+}
+.row{
+    margin-top: 5% ;
+    display: flex;
+    justify-content: space-between;
+}
+.userBoxes-col{
+    flex-basis:  31%;
+    margin-bottom: 5%;
+    padding:  20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.userBoxes-col img{
+    width: 50%;
+    padding: auto;
+}
 
+.userBoxes-col h3{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+}
 
